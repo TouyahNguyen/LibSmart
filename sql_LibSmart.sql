@@ -161,12 +161,11 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 -- Dumping data for table libsmart.users: ~3 rows (approximately)
 INSERT INTO `users` (`id`, `username`, `password`, `role`, `email`, `fullname`, `dob`, `address`, `verified`, `verify_token`, `plain_password`, `reset_token_expire`) VALUES
-	(1, 'khang', '$2y$10$R117dx2lPAQYJBQAXs6jkuV42kgDeIEA.w6X3x3wRnGdSjaS8FFxK', 'manager', 'khangcfa@gmail.com', 'Nguyễn Đình Khang', '2025-08-11', '340/13', 1, NULL, '1', NULL),
-	(4, 'kentop', '$2y$10$YCzRQ3NamAs4J2iSKywt6eLYNLxAlICEDHP4q/.TaD16Iaytu8iWO', 'reader', 'sincos2310@gmail.com', 'Trương Minh Hoàng', NULL, '', 1, NULL, '123456', NULL),
-	(5, 'khach', '$2y$10$vG4h1xm/Wl.LxlIKz0P4FeazPhBwGRiBQdbZZNHBFlGybuyaiJGrC', 'reader', 'mkt.cargotech@gmail.com', 'test', NULL, '', 1, NULL, '1', NULL);
+	
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+
