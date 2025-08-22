@@ -12,8 +12,8 @@ function send_verification_email($to, $code) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'khangcfa@gmail.com'; // Thay bằng email của bạn
-        $mail->Password   = 'puxq dshf cpbg jzez';    // Thay bằng app password (không phải mật khẩu Gmail)
+        $mail->Username   = 'Your email'; // Thay bằng email của bạn
+        $mail->Password   = 'Your App Password';    // Thay bằng app password (không phải mật khẩu Gmail)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';
