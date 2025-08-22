@@ -1,4 +1,0 @@
-# Chuyển hướng tất cả truy cập về public/index.php
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/public/
-RewriteRule ^(.*)$ /public/$1 [L]
